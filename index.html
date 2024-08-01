@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icons" href="assets/logo.png">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 sr">
+                    <h2>Sr. No. <span>00000000</span></h2>
+                </div>
+                <div class="col-4 logo">
+                    <img src="assets/logo.png" alt="College Logo">
+                </div>
+                <div class="col-4 scanner">
+                    <img src="assets/qr.png" alt="QR Code">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 heading">
+                    <h1>Hindusthan College of Engineering and Technology</h1>
+                    <h3>Associated with Technical and Architectural Education Council</h3>
+                    <h3>An Autonomous Institution Recognized by Government of India</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 heading1">
+                    <h1>Annual Statement of Marks</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 table">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td colspan="2">Name of de Candidate<br><span>Priyadharshini K</span></td>
+                            <td>Course name with code<br><span>Information Technology</span></td>
+                        </tr>
+                        <tr>
+                            <td>Reg. No.<br><span>720721110031</span></td>
+                            <td>Enrollment. No.<br><span>1042537</span></td>
+                            <td>Authorised Training Centre Name with Code<br><span>Six Phase<br>10557823</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 table1">
+                    <table style="width: 100%;">
+                        <tr class="head1">
+                            <td rowspan="2">Subject Code</td>
+                            <td rowspan="2">Subject Name</td>
+                            <td rowspan="2">Max Marks</td>
+                            <td colspan="2" class="three">Mark Obtained In Figures</td>
+                            <td rowspan="2">Total</td>
+                        </tr>
+                        <tr class="head1">
+                            <td>Theory</td>
+                            <td>Practical</td>
+                        </tr>
+                        <tr>
+                            <td>IT-101</td>
+                            <td>OOPS Concepts</td>
+                            <td>100</td>
+                            <td><input id="inp1"></td>
+                            <td><input id="inp2"></td>
+                            <td><input id="res1"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-102</td>
+                            <td>Python Fundamentals</td>
+                            <td>100</td>
+                            <td><input id="inp3"></td>
+                            <td><input id="inp4"></td>
+                            <td><input id="res2"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-103</td>
+                            <td>Computer Architecture</td>
+                            <td>100</td>
+                            <td><input id="inp5"></td>
+                            <td><input id="inp6"></td>
+                            <td><input id="res3"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-104</td>
+                            <td>Mobile Computing</td>
+                            <td>100</td>
+                            <td><input id="inp7"></td>
+                            <td><input id="inp8"></td>
+                            <td><input id="res4"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-105</td>
+                            <td>Data Science</td>
+                            <td>100</td>
+                            <td><input id="inp9"></td>
+                            <td><input id="inp10"></td>
+                            <td><input id="res5"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-106</td>
+                            <td>Practical-I</td>
+                            <td>100</td>
+                            <td><input id="inp11"></td>
+                            <td><input id="inp12"></td>
+                            <td><input id="res6"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-107</td>
+                            <td>Practical-II</td>
+                            <td>100</td>
+                            <td><input id="inp13"></td>
+                            <td><input id="inp14"></td>
+                            <td><input id="res7"></td>
+                        </tr>
+                        <tr>
+                            <td>IT-108</td>
+                            <td>Practical-III</td>
+                            <td>100</td>
+                            <td><input id="inp15"></td>
+                            <td><input id="inp16"></td>
+                            <td><input id="res8"></td>
+                        </tr>
+                    </table>
+                    <div class="row">
+                        <div class="col-12 table2">
+                            <table style="width: 100%;">
+                                <tr class="heading2">
+                                    <td class="left" colspan="5">Grand Total: &nbsp;&nbsp;<input id="tot">
+                                        <span><button onclick="submit()">Submit</button></span>
+                                    </td>
+                                </tr>
+                                <tr class="heading2">
+                                    <td>Month and Year of Examination</td>
+                                    <td>No. of Subject Offered</td>
+                                    <td>Result</td>
+                                    <td>Percentage</td>
+                                    <td>Grade</td>
+                                </tr>
+                                <tr>
+                                    <td>May 2023</td>
+                                    <td>T5+P3</td>
+                                    <td><input id="result"></td>
+                                    <td><input id="percent"></td>
+                                    <td><input id="grade"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 sign">
+                            <h3><span>Jaya</span></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 date">
+                            <h3>Date: <span>05.05.2024</span></h3>
+                        </div>
+                        <div class="col-6 date sign1">
+                            <h3>Deputy Controller of Examination</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 bottom">
+                            <h3>Subject marked with * indicates Exemption</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

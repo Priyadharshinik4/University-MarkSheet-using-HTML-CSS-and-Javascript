@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* width: 99.52%; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.section{
+    padding: 10px;
+}
+.container{
+    border: 5px solid rgb(136, 47, 47);
+    background-color: gainsboro;
+    padding: 20px 30px;
+}
+.sr h2{
+    font-size: 18px;
+}
+.sr h2 span{
+    color: red;
+}
+.logo img{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    left: 38rem;
+}
+.scanner img{
+    width: 120px;
+    height: 140px;
+    position: relative;
+    left: 14.5rem;
+}
+.heading{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(116, 26, 26);
+}
+.heading h1{
+    font-family:Arial;
+    font-size: 38px;
+    font-weight: 600;
+}
+.heading h3{
+    font-size: 21px;
+    font-family:Cambria;
+    font-weight: 700;
+}
+.heading1 h1{
+    font-size: 38px;
+    text-align: center;
+    color: rgb(160, 109, 14);
+    font-family: 'Times New Roman';
+    font-weight: 700;
+}
+table td{
+    border: 2px solid rgb(160, 109, 14);
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px; 
+}
+.table td{
+    color: rgb(160, 109, 14);
+}
+.table span{
+    color: black;
+} 
+.head1 td{
+    color: rgb(160, 109, 14);
+}
+.left{
+    text-align: left;
+    border-top: none;
+}
+.left span{
+    float: right;
+}
+button{
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(160, 109, 14) ;
+    color: white;
+}
+.heading2{
+    color: rgb(160, 109, 14);
+}
+.sign{
+    padding-top: 35px;
+}
+.date h3{
+    color: rgb(160, 109, 14);
+    font-size: 20px;
+    width: 100%;
+}
+.date span{
+    color: black;
+}
+.sign1,.sign{
+    text-align: right;
+}
+.sign h3 span{
+    font-family: Geneva;
+    font-size: 23px;
+}
+.bottom h3{
+    font-size: 20px;
+    color: rgb(160, 109, 14);
+    text-align: center;
+}
+table input{
+    width: 70px;
+    border: none;
+    background-color: gainsboro;
+    text-align: center;
+}
