@@ -9,7 +9,7 @@ body{
 }
 .container{
     border: 5px solid rgb(136, 47, 47);
-    background-color:  rgb(255, 212, 212);
+    background-color: rgb(255, 212, 212);
     padding: 20px 30px;
 }
 .sr h2{
@@ -78,6 +78,8 @@ table td{
 }
 button{
     transition: 1s;
+    border-color: rgb(160, 109, 14);
+    background-color:  rgb(255, 212, 212);
 }
 button:hover{
     transform: scale(1.1);
@@ -113,6 +115,6 @@ button:hover{
 table input{
     width: 70px;
     border: none;
-    background-color:  rgb(255, 212, 212);;
+    background-color:  rgb(255, 212, 212);
     text-align: center;
 }
