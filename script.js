@@ -86,7 +86,7 @@ function submit()
 
     percent=document.getElementById("percent");
     percentage=(total*100)/800;
-    percent.value=percentage.toFixed(2)+"%";
+    percent.value=percentage.toFixed(0)+"%";
 
 
     grade=document.getElementById("grade");
