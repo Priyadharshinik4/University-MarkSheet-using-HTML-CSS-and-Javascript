@@ -115,4 +115,8 @@ function submit()
         grade.value="F";
     }
 
+
+    const button=document.getElementById("button");
+    button.remove();
+
 }
