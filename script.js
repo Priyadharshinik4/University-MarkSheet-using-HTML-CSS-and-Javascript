@@ -1,5 +1,5 @@
 function submit()
-{
+{   
     inp1=parseFloat(document.getElementById("inp1").value);
     inp2=parseFloat(document.getElementById("inp2").value);
     inp3=parseFloat(document.getElementById("inp3").value);
@@ -18,53 +18,72 @@ function submit()
     inp16=parseFloat(document.getElementById("inp16").value);
 
 
+    if(inp1.value==null || inp2.value==null || inp3.value==null ||
+    inp4.value==null || inp5.value==null || inp6.value==null || inp7.value==null ||
+    inp8.value==null || inp9.value==null || inp10.value==null || inp11.value==null ||
+    inp12.value==null || inp13.value==null || inp14.value==null || inp15.value==null ||
+    inp16.value==null)
+    {
+        alert("Please enter the input value");
+        return;
+    }
+
+
     res1=document.getElementById("res1");
     res1.value=inp1+inp2;
     if(res1.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res2=document.getElementById("res2");
     res2.value=inp3+inp4;
     if(res2.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res3=document.getElementById("res3");
     res3.value=inp5+inp6;
     if(res3.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res4=document.getElementById("res4");
     res4.value=inp7+inp8;
     if(res4.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res5=document.getElementById("res5");
     res5.value=inp9+inp10;
     if(res5.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res6=document.getElementById("res6");
     res6.value=inp11+inp12;
     if(res6.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res7=document.getElementById("res7");
     res7.value=inp13+inp14;
     if(res7.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
     res8=document.getElementById("res8");
     res8.value=inp15+inp16;
     if(res8.value>100)
     {
-        alert("Invalid Integer");
+        alert("Total should be less than 100...");
+        return;
     }
 
 
@@ -114,7 +133,6 @@ function submit()
     {
         grade.value="F";
     }
-
 
     const button=document.getElementById("button");
     button.remove();
