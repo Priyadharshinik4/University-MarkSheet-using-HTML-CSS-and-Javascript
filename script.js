@@ -16,18 +16,7 @@ function submit()
     inp14=parseFloat(document.getElementById("inp14").value);
     inp15=parseFloat(document.getElementById("inp15").value);
     inp16=parseFloat(document.getElementById("inp16").value);
-
-
-    if(inp1.value==null || inp2.value==null || inp3.value==null ||
-    inp4.value==null || inp5.value==null || inp6.value==null || inp7.value==null ||
-    inp8.value==null || inp9.value==null || inp10.value==null || inp11.value==null ||
-    inp12.value==null || inp13.value==null || inp14.value==null || inp15.value==null ||
-    inp16.value==null)
-    {
-        alert("Please enter the input value");
-        return;
-    }
-
+    
 
     res1=document.getElementById("res1");
     res1.value=inp1+inp2;
