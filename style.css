@@ -76,7 +76,7 @@ table td{
 .left span{
     float: right;
 }
-button{
+/* button{
     transition: 1s;
     border-color: rgb(160, 109, 14);
     background-color:  rgb(255, 212, 212);
@@ -85,7 +85,7 @@ button:hover{
     transform: scale(1.1);
     background-color: rgb(160, 109, 14) ;
     color: white;
-}
+} */
 .heading2{
     color: rgb(160, 109, 14);
 }
